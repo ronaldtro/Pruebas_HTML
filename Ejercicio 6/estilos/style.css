@@ -2,7 +2,8 @@ button::before{
     content: 'Pasa por encima';
 }
 
-button:hover{
+button:hover::before{
     background-color: green;
     color: white;
+    content: 'Hecho';
 }
